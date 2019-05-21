@@ -70,7 +70,7 @@ a img {
     }
 
     a img {
-        width: 200px;
+        width: 170px;
     }
 }
 
@@ -85,7 +85,7 @@ a img {
     }
 
     a img {
-        width: 220px;
+        width: 190px;
     }
 }
 
@@ -96,6 +96,6 @@ a img {
     }
 
     .navbar {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
