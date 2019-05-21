@@ -31,6 +31,11 @@ body, html {
     color: white;
 }
 
+a img {
+    width: 150px;
+    height: 100%;
+}
+
 #clouds {
     background-image: url("../Assets/Clouds.jpg");
     height: 100%; 
@@ -49,11 +54,23 @@ body, html {
     .display-1 {
         font-size: 3rem;
     }
+
+    a img {
+        width: 170px;
+    }
 }
 
 @media (min-width: 768px) {
     .display-1 {
         font-size: 4rem;
+    }
+
+    .navbar {
+        font-size: 1rem;
+    }
+
+    a img {
+        width: 200px;
     }
 }
 
@@ -64,7 +81,11 @@ body, html {
     }
 
     .navbar {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    a img {
+        width: 220px;
     }
 }
 
@@ -72,5 +93,9 @@ body, html {
 @media (min-width: 1200px) {
     .display-1 {
         font-size: 6rem;
+    }
+
+    .navbar {
+        font-size: 2rem;
     }
 }
