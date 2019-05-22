@@ -16,7 +16,7 @@
 
 
 body, html {
-    height: 115%;
+    height: 100%;
 }
 
 .display-1 {
@@ -37,7 +37,7 @@ a img {
 }
 
 #clouds {
-    background-image: url("../Assets/Clouds.jpg");
+    background-image: url("../Assets/cloudHero.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ a img {
 
 #title {
     position: absolute;
-    top: 60%;
+    top: 45%;
 
 }
 
