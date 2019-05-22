@@ -21,7 +21,7 @@ body, html {
 
 .display-1 {
     font-family: "madeEvolveSansBold";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
 }
 
@@ -32,12 +32,12 @@ body, html {
 }
 
 a img {
-    width: 150px;
+    width: 120px;
     height: 100%;
 }
 
 #clouds {
-    background-image: url("../Assets/cloudHero.jpg");
+    background-image: url("../Assets/cloudHeroComp.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -52,32 +52,28 @@ a img {
 
 @media (min-width: 576px) {
     .display-1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     a img {
-        width: 170px;
+        width: 140px;
     }
 }
 
 @media (min-width: 768px) {
     .display-1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .navbar {
         font-size: 1rem;
-    }
-
-    a img {
-        width: 170px;
     }
 }
 
 
 @media (min-width: 992px) { 
     .display-1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     .navbar {
@@ -85,14 +81,14 @@ a img {
     }
 
     a img {
-        width: 190px;
+        width: 150px;
     }
 }
 
 
 @media (min-width: 1200px) {
     .display-1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .navbar {
