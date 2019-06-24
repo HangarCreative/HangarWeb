@@ -1,0 +1,39 @@
+
+.yt-video {
+    margin-top: 4rem;
+    width: 1200px;
+    height: 200px;
+    border: 0;
+}
+
+.text-3 {
+    font-size: 15px;
+    font: "ralewayLight";
+    font-weight: lighter;
+    color: #676767;
+}
+
+@media (min-width: 576px){ 
+    .yt-video {
+        height: 300px;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+
+    .yt-video {
+        height: 500px;
+    }
+    
+    .text-3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    
+    .text-3 {
+        font-size: 20px;
+    }
+}
