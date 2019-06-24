@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'madeEvolveSansBold';
+    src: url('../Assets/Fonts/made_evolve_sans_bold-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/made_evolve_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayLight';
+    src: url('../Assets/Fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.display-1 {
+    font-family: "madeEvolveSansBold";
+    font-size: 1.3rem;
+    color: white;
+}
+
+a img {
+    width: 120px;
+    height: 100%;
+}
+
+.navbar {
+    font-family: "ralewayLight";
+    font-size: 1rem;
+    color: white;
+}
+
+#title {
+    position: absolute;
+    top: 45%;
+
+}
+
+@media (min-width: 576px) {
+    .display-1 {
+        font-size: 2.5rem;
+    }
+
+    a img {
+        width: 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .display-1 {
+        font-size: 3.5rem;
+    }
+
+    .navbar {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .display-1 {
+        font-size: 4.5rem;
+    }
+
+    .navbar {
+        font-size: 1.2rem;
+    }
+
+    a img {
+        width: 150px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 5rem;
+    }
+
+    .navbar {
+        font-size: 1.5rem;
+    }
+}
