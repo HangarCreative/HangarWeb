@@ -47,6 +47,11 @@ a img {
 
 }
 
+.link-1 {
+    font-family: 'ralewayLight';
+    font-size: 1.5rem;
+}
+
 @media (min-width: 576px) {
     .display-1 {
         font-size: 2.5rem;
