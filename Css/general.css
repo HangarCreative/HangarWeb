@@ -49,7 +49,8 @@ a img {
 
 .link-1 {
     font-family: 'ralewayLight';
-    font-size: 1.5rem;
+    margin-top: 14px;
+    font-size: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -84,6 +85,10 @@ a img {
 
     a img {
         width: 150px;
+    }
+
+    .link-1 {
+        font-size: 1.5rem;
     }
 }
 
