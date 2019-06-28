@@ -28,6 +28,11 @@ body, html {
 a img {
     width: 120px;
     height: 100%;
+    margin-left: 15px;
+}
+
+#projects{
+    padding-right: 15px;
 }
 
 .navbar {

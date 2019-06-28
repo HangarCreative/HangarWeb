@@ -1,5 +1,5 @@
 html, body {
-    /* overflow-y: hidden; */
+    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -8,7 +8,7 @@ html, body {
 }
 
 .banner-container {
-    margin-top: 15px;
+    /* margin-top: 10px; */
     width: 100%;
     height: auto;
     background:	#0080B1;
