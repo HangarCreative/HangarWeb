@@ -21,6 +21,7 @@ html, body {
 .fluid-img {
     width: 100%;
     height: auto;
+    margin-top: 75px;
 }
 
 .row {
@@ -97,6 +98,10 @@ html, body {
 
     .yt-video {
         height: 300px;
+    }
+
+    .fluid-img {
+        margin-top: 0;
     }
     
 }
