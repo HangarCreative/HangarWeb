@@ -25,6 +25,20 @@ body, html {
     color: white;
 }
 
+.banner-container {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: auto;
+    background:	white;
+}
+
+.fluid-img {
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
+
+
 a img {
     width: 120px;
     height: 100%;
@@ -47,10 +61,36 @@ a img {
 
 }
 
+.text-container {
+    width: 70%;
+    margin-left: 15%;
+}
+
 .link-1 {
     font-family: 'ralewayLight';
     margin-top: 14px;
     font-size: 1rem;
+}
+
+.text-1{
+    font-size: 15px;
+    font: "ralewayLight";
+    font-weight: lighter;
+    color: #676767;
+}
+
+.text-2{
+    font-size: 20px;
+    font: "ralewayLight";
+    font-weight: bold;
+    color: #142F4F;
+}
+
+.text-3 {
+    font-size: 15px;
+    font: "ralewayLight";
+    font-weight: lighter;
+    color: #676767;
 }
 
 @media (min-width: 576px) {
@@ -61,6 +101,18 @@ a img {
     a img {
         width: 140px;
     }
+
+    .text-1{
+        font-size: 15px;
+    }
+    
+    .text-2{
+        font-size: 25px;
+    }
+
+    .fluid-img {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -70,6 +122,18 @@ a img {
 
     .navbar {
         font-size: 0.9rem;
+    }
+
+    .text-1{
+        font-size: 20px;
+    }
+    
+    .text-2{
+        font-size: 30px;
+    }
+    
+    .text-3 {
+        font-size: 15px;
     }
 }
 
@@ -90,6 +154,14 @@ a img {
     .link-1 {
         font-size: 1.5rem;
     }
+
+    .text-1{
+        font-size: 25px;
+    }
+    
+    .text-2{
+        font-size: 35px;
+    }
 }
 
 
@@ -100,5 +172,17 @@ a img {
 
     .navbar {
         font-size: 1.5rem;
+    }
+
+    .text-1{
+        font-size: 30px;
+    }
+    
+    .text-2{
+        font-size: 40px;
+    }
+    
+    .text-3 {
+        font-size: 20px;
     }
 }
