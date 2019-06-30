@@ -77,7 +77,7 @@
     <script src="Scripts/bootstrap.js"></script>
     <!-- Optional JavaScript -->
     <script>
-    window.onscroll = function() {
+    $(window).scroll(function() {
         var currentScrollPos = window.pageYOffset;
         if (window.pageYOffset > 10) {
             document.getElementById("navbar").style.top = "0";
@@ -85,7 +85,7 @@
             document.getElementById("navbar").style.top = "-80px";
         }
         prevScrollpos = currentScrollPos;
-    };
+    });
     </script>
   </body>
 </html>
