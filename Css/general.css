@@ -35,7 +35,7 @@ body, html {
 .fluid-img {
     width: 100%;
     height: auto;
-    margin-top: 75px;
+    /* margin-top: 75px; */
 }
 
 
@@ -51,7 +51,9 @@ a img {
 
 .navbar {
     font-family: "ralewayLight";
-    top: 0;
+    width: 100%;
+    padding-left: 0;
+    top: -80px;
     position: fixed;
     font-size: 1rem;
     color: white;
@@ -129,6 +131,7 @@ a img {
 
     .navbar {
         font-size: 0.9rem;
+        top: 0;
     }
 
     .text-1{

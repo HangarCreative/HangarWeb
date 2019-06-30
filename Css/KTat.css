@@ -1,8 +1,5 @@
-html, body {
-    overflow-x: hidden;
-}
-
 .column-3 {
+    /* overflow-x: hidden; */
     position: relative;
     flex: 70%;
     max-width: 70%;
